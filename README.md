@@ -37,6 +37,11 @@ participants were excluded.
 ### Map abstract id to doi
 * Use `abstract_id_doi.csv`
 
+### BrainBench Test cases
+* Human created: https://huggingface.co/datasets/BrainGPT/BrainBench_Human_v0.1.csv
+
+* GPT-4 created: https://huggingface.co/datasets/BrainGPT/BrainBench_GPT-4_v0.1.csv
+
 ### Attribution
 ```
 @misc{luo2024large,
