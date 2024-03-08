@@ -34,13 +34,11 @@ participants were excluded.
 
 * `sex`: "To which gender identity do you most conform?" (dropdown selection)
 
-### Map abstract id to doi
-* Use `abstract_id_doi.csv`
-
-### BrainBench Test cases
-* Human created: https://huggingface.co/datasets/BrainGPT/BrainBench_Human_v0.1.csv
-
-* GPT-4 created: https://huggingface.co/datasets/BrainGPT/BrainBench_GPT-4_v0.1.csv
+### Which abstract was shown to each participant?
+1. `abstract_id` and `journal_section` provides a unique identifier of which test case was presented to a given participant during online experiment.
+2. To locate the exact abstract, use `abstract_id_doi.csv` to map `abstract_id` to the paper's DOI.
+3. In `journal_section`, prefix `human_` suggests the test case was created by a human expert, and `machine_` suggests the test case was created by GPT-4.
+4. Both human experts and GPT-4 created test cases can be found https://huggingface.co/datasets/BrainGPT/BrainBench_Human_v0.1.csv and https://huggingface.co/datasets/BrainGPT/BrainBench_GPT-4_v0.1.csv
 
 ### Attribution
 ```
