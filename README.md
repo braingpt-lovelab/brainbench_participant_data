@@ -38,7 +38,8 @@ participants were excluded.
 1. `abstract_id` and `journal_section` provides a unique identifier of which test case was presented to a given participant during online experiment.
 2. To locate the exact abstract, use `abstract_id_doi.csv` to map `abstract_id` to the paper's DOI.
 3. In `journal_section`, prefix `human_` suggests the test case was created by a human expert, and `machine_` suggests the test case was created by GPT-4.
-4. Both human experts and GPT-4 created test cases can be found https://huggingface.co/datasets/BrainGPT/BrainBench_Human_v0.1.csv and https://huggingface.co/datasets/BrainGPT/BrainBench_GPT-4_v0.1.csv
+4. Both human experts and GPT-4 created test cases can be found in the dedicated repo - https://github.com/braingpt-lovelab/brainbench_testcases/tree/main
+5. They are also hosted on huggingface: https://huggingface.co/datasets/BrainGPT/BrainBench_Human_v0.1.csv and https://huggingface.co/datasets/BrainGPT/BrainBench_GPT-4_v0.1.csv
 
 ### Attribution
 ```
